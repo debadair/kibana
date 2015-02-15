@@ -33,19 +33,19 @@ You can use the browser Back button to undo your changes at any time.
 [[search]]
 === Searching Your Data
 You can search the indices that match the current index pattern by submitting a search from the Discover app.
-You can enter simple query strings using the Lucene https://lucene.apache.org/core/2_9_4/queryparsersyntax.html[query syntax], or use the full JSON-based http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl.html[Query DSL]. 
+You can enter simple query strings using the Lucene https://lucene.apache.org/core/2_9_4/queryparsersyntax.html[query syntax] or the full JSON-based http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl.html[Query DSL]. 
 
-When you submit a search, the histogram, Documents Table, and field list are updated to reflect the search results. The total number of hits (matching documents) is shown in the upper right corner of the time chart.
+When you submit a search, the histogram, Documents Table, and field list are updated to reflect the search results. The total number of hits (matching documents) is shown in the upper right corner of the histogram.
 
-The Documents Table shows the first five hundred hits. By default, the hits are listed in reverse chronological order, with the newest documents shown first. You can reverse the sort order by by clicking on the Time column header. You can also sort the table using the values in any indexed field. For more information, see <<sorting, Sorting the Documents Table>>.
+The Documents Table shows the first five hundred hits. By default, the hits are listed in reverse chronological order, with the newest documents shown first. You can reverse the sort order by clicking on the *Time* column header. You can also sort the table by any indexed field. For more information, see <<sorting, Sorting the Documents Table>>.
 
 To search your data:
 
 . Enter a query string in the Search field: 
 +
-* To perform a free text search, simply enter a text string. For example, if you're searching web server logs, you could enter `200` to find entries that contain the string 200. This searches all fields for the string `200`.
+* To perform a free text search, simply enter a text string. For example, if you're searching web server logs, you could enter `200` to find entries that contain the value `200`. This searches all fields for the value `200`.
 +
-* To search for a string in a specific field, you prefix the string with the name of the field. For example, you could enter `status:200` to limit the results to entries that contain the string `200` in the `status` field.
+* To search for a value in a specific field, you prefix the value with the name of the field. For example, you could enter `status:200` to limit the results to entries that contain the value `200` in the `status` field.
 +
 * To search for a range of values, you can use the bracketed range syntax, `[START_VALUE TO END_VALUE]`. For example, to find entries that have 4xx status codes, you could enter `status:[400 TO 499]`.
 +
