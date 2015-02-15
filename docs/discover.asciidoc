@@ -71,7 +71,7 @@ Saving a search saves both the search query string and the currently selected in
 
 To save the current search:
 
-. Click the *Save Search* button image:images/SaveButton[Save Search button] in the Discover Toolbar. 
+. Click the *Save Search* button image:images/SaveButton.jpg[Save Search button] in the Discover Toolbar. 
 . Enter a name for the search and click *Save*.
 
 [float]
@@ -79,8 +79,7 @@ To save the current search:
 ==== Loading a Saved Search
 To load a saved search:
 
-. Click the *Load Search* button image:images/LoadButton[Load Search 
-button] in the Discover Toolbar.
+. Click the *Load Search* button image:images/LoadButton.jpg[Load Search button] in the Discover Toolbar.
 . Select the search you want to load.
 
 If the saved search is associated with a different index pattern than is currently selected, loading the saved search also changes the selected index pattern.
@@ -92,8 +91,7 @@ When you submit a search request, the indices that match the currently-selected 
 
 To select a different index pattern:
 
-. Click the *Settings* button image:images/SettingsButton[Settings 
-button] in the Discover Toolbar.
+. Click the *Settings* button image:images/SettingsButton.jpg[Settings button] in the Discover Toolbar.
 . Select the pattern you want to use from the Index Pattern list.
 
 For more information about index patterns, see <<settings-create-pattern, Creating an Index Pattern>>.
@@ -106,7 +104,7 @@ data. When a refresh interval is set, it is displayed to the left of the Time Fi
 
 To enable auto-refresh:
 
-. Click the Time Filter in the upper right corner of the menu bar.
+. Click the Time Filter image:images/TimeFilter.jpg[Time Filter] in the upper right corner of the menu bar.
 . Click the *Refresh Interval* tab.
 . Choose an interval from the list.
 
