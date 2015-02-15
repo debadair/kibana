@@ -59,19 +59,19 @@ NOTE: These examples use the Lucene query syntax. You can also submit queries us
 [float]
 [[new-search]]
 ==== Starting a New Search
-To clear the current search and start a new search, click the *New Search* button in the Discover Toolbar.
+To clear the current search and start a new search, click the *New Search* button in the Discover toolbar.
 
 image:images/Discover-New-Search.jpg[New Search]
 
 [float]
 [[save-search]]
 ==== Saving a Search
-You can reload saved searches on the Discover app and use them as the basis of <<visualize, visualizations>>.
-Saving a search saves both the search query string and the currently selected index pattern.
+When you save a search you can revisit it at a later time, or use it as the basis for a <<visualize, visualization>>.
+Saving a search preserves the search query, the currently selected index pattern, and even the selected columns and sort direction.
 
 To save the current search:
 
-. Click the *Save Search* button image:images/SaveButton.jpg[Save Search button] in the Discover Toolbar. 
+. Click the *Save Search* button image:images/SaveButton.jpg[Save Search button] in the Discover toolbar. 
 . Enter a name for the search and click *Save*.
 
 [float]
@@ -79,7 +79,7 @@ To save the current search:
 ==== Loading a Saved Search
 To load a saved search:
 
-. Click the *Load Search* button image:images/LoadButton.jpg[Load Search button] in the Discover Toolbar.
+. Click the *Load Search* button image:images/LoadButton.jpg[Load Search button] in the Discover toolbar.
 . Select the search you want to load.
 
 If the saved search is associated with a different index pattern than is currently selected, loading the saved search also changes the selected index pattern.
@@ -91,8 +91,8 @@ When you submit a search request, the indices that match the currently-selected 
 
 To select a different index pattern:
 
-. Click the *Settings* button image:images/SettingsButton.jpg[Settings button] in the Discover Toolbar.
-. Select the pattern you want to use from the Index Pattern list.
+. Click the *Settings* button image:images/SettingsButton.jpg[Settings button] in the Discover toolbar.
+. Select the pattern you want to use from the list under the *Index Pattern* heading.
 
 For more information about index patterns, see <<settings-create-pattern, Creating an Index Pattern>>.
 
