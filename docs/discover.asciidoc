@@ -98,7 +98,7 @@ For more information about index patterns, see <<settings-create-pattern, Creati
 
 [float]
 [[auto-refresh]]
-=== Automatically Refreshing the Page
+=== Automatically Refreshing the Data
 You can configure a refresh interval to periodically refresh the Discover app with the latest
 data. When a refresh interval is set, it is displayed to the left of the Time Filter in the menu bar.
 
