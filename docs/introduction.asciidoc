@@ -25,19 +25,19 @@ Let's take a look at how you might use Kibana to explore and visualize data.
 We've indexed some data from Transport for London (TFL) that shows one week 
 of transit (Oyster) card usage.
 
-From Kibana's Discover page, we can submit search queries, filter the results, and 
+From Kibana's Discover app, we can submit search queries, filter the results, and 
 examine the data in the returned documents. For example, we can get all trips 
 completed by the Tube during the week by excluding incomplete trips and trips by bus:
 
 image:images/TFL-CompletedTrips.jpg[Discover]
 
 Right away, we can see the peaks for the morning and afternoon commute hours. By default, 
-the Discover page shows a time-series chart and the first 500 entries that match the 
+the Discover app shows a time-series chart and the first 500 entries that match the 
 search criteria. You can change the time filter, interact with the chart to drill 
 down into the data, and view the details of particular documents. For more 
-information about exploring your data from the Discover page, see <<discover>>.
+information about exploring your data from the Discover app, see the <<discover>> section.
 
-You can construct visualizations of your search results from the Visualization page.
+You can construct visualizations of your search results from the Visualization app.
 Each visualization is associated with a search. For example, we can create a histogram
 that shows the weekly London commute traffic via the Tube using a search that excludes 
 incomplete trips and trips by bus. The Y-axis shows the number of trips. The X-axis shows
@@ -52,7 +52,6 @@ that displays several visualizations of the TFL data:
 
 image:images/TFL-Dashboard.jpg[Dashboard]
 
-For more information about creating and sharing visualizations, see <<visualize>>. 
-For more information about working with Dashboards, see <<dashboard, Dashboard>>.
-
+For more information about creating and sharing visualizations or dashboards see the <<visualize>>
+or <<dashboard>> sections.
 
