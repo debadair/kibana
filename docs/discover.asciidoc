@@ -6,7 +6,7 @@ You can interactively explore your data from the Discover app. You have access t
 TBD: Link to the vbc visualization section when it's available
 ////
 
-image:images/Discover-Start-Annotated.jpg[Discover Page]
+image:images/Discover-Start-Annotated.jpg[Discover App]
 
 [float]
 [[set-time-filter]]
