@@ -5,7 +5,7 @@ Kibana is a web application that you access through port 5601. All you need to
 do is point your web browser at the machine where Kibana is running and 
 specify the port number. For example, `localhost:5601` or `http://YOURDOMAIN.com:5601`.
 
-When you access Kibana, the Discover page loads by default with the default index
+When you access Kibana, the Discover app loads by default with the default index
 pattern selected. The time filter is set to the last 15 minutes and the search 
 query is set to match-all (*).
 
