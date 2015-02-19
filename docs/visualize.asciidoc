@@ -80,10 +80,8 @@ the current visualization.
 [[aggregation-builder]]
 ===== Aggregation Builder
 
-Use the aggregation builder on the left of the page to configure the 
-{ref}/search-aggregations.html#\_metrics_aggregations[metric] and 
-{ref}/search-aggregations.html#\_bucket_aggregations[bucket] aggregations used in your visualization. Buckets are 
-analogous to SQL `GROUP BY` statements. For more information on aggregations, see the main
+Use the aggregation builder on the left of the page to configure the metric and bucket aggregations used in your 
+visualization. Buckets are analogous to SQL `GROUP BY` statements. For more information on aggregations, see the main
 {ref}/search-aggregations.html[Elasticsearch aggregations reference].
 
 In bar or line chart visualizations, use _metrics_ for the y-axis and _buckets_ are used for the x-axis, segment bar 
