@@ -34,11 +34,11 @@ Elastic website or from our RPM repository.
 `docker`::
 
 Images are available for running Kibana as a Docker container. They may be
-downloaded from the Elastic Docker Registry. 
+downloaded from the Elastic Docker Registry.
 +
 <<docker,Running Kibana on Docker>>
 
-IMPORTANT: If your Elasticsearch installation is protected by {xpack-ref}/xpack-security.html[X-Pack Security]
+IMPORTANT: If security is enabled on your Elasticsearch cluster,
 see {kibana-ref}/using-kibana-with-security.html[Configuring Security in Kibana]
 for additional setup instructions.
 
